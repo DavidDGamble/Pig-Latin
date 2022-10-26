@@ -53,4 +53,16 @@ function pigLatin(word) {
   }
 }
 
-console.log(pigLatinSentence("I really enjoy coding"))
+window.addEventListener("load" , function(){
+  let form = document.querySelector("form");
+  form.addEventListener("submit" , handleSubmit);
+});
+
+function handleSubmit(event) {
+  event.preventDefault();
+  
+  const input = document.getElementById('words').value;
+
+  const p = document.querySelector('p#output');
+  document.getElementById('output').innerText = pigLatinSentence(input); 
+}
