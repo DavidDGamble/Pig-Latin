@@ -1,7 +1,7 @@
 
 # _Pig Latin_
 
-#### By _**Ryan Krueg**_
+#### By _**David Gamble & Ryan Krueg**_
 
 #### _Translates user input to pig latin._
 
